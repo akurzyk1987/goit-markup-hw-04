@@ -8,6 +8,7 @@
   --subtle-bg-accent-color: #e7e9fc;
   --dark-bg-color: #2e2f42b2;
   --customers-color: #8e8f99;
+  --media-hover-color: #31d0aa;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -313,6 +314,7 @@ ul {
 .client-logo {
   width: 104px;
   height: 56px;
+  transform: scale(2);
 }
 .customers-link {
   fill: var(--customers-color);
@@ -383,7 +385,7 @@ ul {
 }
 .footer-icon:hover,
 .footer-icon:focus {
-  background-color: var(--pressed-state-color);
+  background-color: var(--media-hover-color);
 }
 .footer-icon {
   display: flex;
